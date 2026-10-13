@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>한시연 — 나의 취향 아카이브</title>
+<meta name="description" content="혼자만의 시간에서 나를 찾는 사람">
+<meta property="og:type" content="website">
+<meta property="og:title" content="한시연 — 나의 취향 아카이브">
+<meta property="og:description" content="혼자만의 시간에서 나를 찾는 사람">
+<meta property="og:image" content="assets/lake_01.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400&family=Noto+Serif+KR:wght@400;600&family=IBM+Plex+Mono:wght@400;600&family=Nanum+Gothic+Coding:wght@400;700&family=Jua&family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="my-style.css">
+</head>
+<body>
+
+<!-- 상단 고정 바 — 왼쪽 사이트 제목 · 오른쪽 장 메뉴 다섯 칸(지금 장 칸만 아래 굵은 선, 그 밖의 선 없음). 첫 화면 사진 위에선 글자색을 사진 명도로(§I-6), 본문 위에선 바탕 면 88% + 흐림(§I-5) -->
+<header class="ca-gnb">
+  <div class="ca-gnb-row">
+    <p class="ca-gnb-name"><a href="#top">한시연</a></p>
+    <nav class="ca-menu" aria-label="장">
+      <a href="#s2">시선</a>
+      <a href="#s3">사람</a>
+      <a href="#s4">공간</a>
+      <a href="#s5">물건</a>
+      <a href="#s6">기준</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ① 첫 화면 — 사진이 여백 없이 화면 가득, 그 위 아래쪽 왼쪽에 대표 제목. 글자색은 sig.js가 사진 명도로 고른다(§I-6) -->
+<div class="ca-top ca-top--hero" id="top">
+  <figure class="ca-hero ca-hero--full"><img src="assets/lake_01.jpg" width="2340" height="1560" alt="첫 화면 lake 사진 1"></figure>
+  <div class="ca-hero-t">
+    <h1 class="ca-h1">한 번 더 보고,<br>한 번 더 찾게 되는 것들</h1>
+  </div>
+</div>
+
+<main>
+
+  <!-- ③ 1장 시선 — 카드 줄: 묶음마다 카드 하나(사진 최대 5장, 카드엔 2장). 연 카드 하나만 3열로 -->
+  <section class="ca-sec" id="s2" aria-labelledby="s2-t">
+    <div class="ca-head ca-row"><h2 class="ca-label" id="s2-t">1장 시선</h2>
+      <p class="ca-lead">늘 보던 것이 달라 보이는 순간</p>
+    </div>
+    <div class="ca-track">
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">하늘</button></h3>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/w04_sky1.jpg" width="2340" height="1560" alt="1장 시선 하늘 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/w04_sky2.jpg" width="2340" height="1560" alt="1장 시선 하늘 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/w04_sky3.jpg" width="1335" height="1780" alt="1장 시선 하늘 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/w04_sky4.jpg" width="4030" height="3024" alt="1장 시선 하늘 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/w04_sky5.jpg" width="3472" height="4624" alt="1장 시선 하늘 사진 5"></figure>
+          <p class="ca-why">매번 달라지는 하늘의 색과 구름의 결</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">손</button></h3>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/w04_hands1.jpg" width="1395" height="1635" alt="1장 시선 손 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/w04_hands2.jpg" width="1287" height="1931" alt="1장 시선 손 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/w04_hands3.jpg" width="6000" height="4000" alt="1장 시선 손 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/w04_hands4.jpg" width="2070" height="1380" alt="1장 시선 손 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/w04_hands5.jpg" width="4608" height="3072" alt="1장 시선 손 사진 5"></figure>
+          <p class="ca-why">때로는 말보다 더 많은 것을 보여주는</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">길</button></h3>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/w04_road1.jpg" width="927" height="1648" alt="1장 시선 길 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/w04_road2.jpg" width="2560" height="1885" alt="1장 시선 길 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/w04_road3.jpg" width="2735" height="4119" alt="1장 시선 길 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/w04_road4.jpg" width="3744" height="5616" alt="1장 시선 길 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/w04_road5.jpg" width="4000" height="6000" alt="1장 시선 길 사진 5"></figure>
+          <p class="ca-why">어디론가 이어지는 길의 방향</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ④ 2장 사람 — 12단: 왼쪽 4단 = 장 이름 · 큰 문장(소개 글 삭제) | 오른쪽 6단 = 이유 카드 셋(사진 3단 | 글 3단) -->
+  <section class="ca-sec ca-split" id="s3" aria-labelledby="s3-t">
+    <div class="ca-head ca-row"><h2 class="ca-label" id="s3-t">2장 사람 · HAUM</h2>
+      <p class="ca-lead">유니크한 비주얼과 강렬한 퍼포먼스가 돋보이는 멤버</p>
+    </div>
+    <div class="ca-grid ca-row">
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">고양이상 비주얼</button></h3>
+          <p class="ca-when">위로 올라간 눈매, 얼굴상</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/w05_haeum01_visual.jpg" width="1080" height="721" alt="2장 사람 고양이상 비주얼 사진 1"></figure>
+          <p class="ca-why">고양이를 떠올리게 해서 / 유니크하고 예뻐서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">컨셉 소화력</button></h3>
+          <p class="ca-when">어느 컨셉이든 자기 것으로 만드는</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/w05_haeum03_concept.jpg" width="1200" height="1600" alt="2장 사람 컨셉 소화력 사진 1"></figure>
+          <p class="ca-why">다양한 컨셉을 잘 소화해서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">강렬한 퍼포먼스</button></h3>
+          <p class="ca-when">무대 위에서의 다양한 표정연기</p>
+        </div>
+        <div class="ca-body">
+          <p class="ca-why">시원시원한 춤선이 돋보여서</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ⑤ 3장 공간 — 왼쪽 공간 목록(이름 · 서브카피 · More) | 오른쪽 사진을 작은 정사각 칸에 흩어 둠(W07-B에서 이식). 칸 클릭 → 상세 -->
+  <section class="ca-sec" id="s4" aria-labelledby="s4-t">
+    <div class="ca-head ca-row"><h2 class="ca-label" id="s4-t">3장 공간</h2>
+    </div>
+    <div class="ca-track" data-scatter>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">lake</button></h3>
+          <p class="ca-when">산책</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/lake_01.jpg" width="2340" height="1560" alt="3장 공간 lake 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/lake_02.jpg" width="2574" height="1930" alt="3장 공간 lake 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/lake_03.jpg" width="2574" height="1930" alt="3장 공간 lake 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/lake_04.jpg" width="2340" height="1560" alt="3장 공간 lake 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/lake_05.jpg" width="2340" height="1560" alt="3장 공간 lake 사진 5"></figure>
+          <p class="ca-why">생각이 많아질 때
+고요하고 편안해서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">library</button></h3>
+          <p class="ca-when">독서</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/library_01.jpg" width="1288" height="1930" alt="3장 공간 library 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/library_02.jpg" width="2574" height="1931" alt="3장 공간 library 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/library_03.jpg" width="1287" height="1930" alt="3장 공간 library 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/library_04.jpg" width="1335" height="1782" alt="3장 공간 library 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/library_05.jpg" width="2338" height="1561" alt="3장 공간 library 사진 5"></figure>
+          <p class="ca-why">집중하고 싶을 때
+조용하고 집중이 잘 돼서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">subway</button></h3>
+          <p class="ca-when">이동</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/subway_01.jpg" width="2556" height="1963" alt="3장 공간 subway 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/subway_02.jpg" width="1311" height="1852" alt="3장 공간 subway 사진 2"></figure>
+          <figure class="ca-fig"><img src="assets/subway_03.jpg" width="1287" height="1930" alt="3장 공간 subway 사진 3"></figure>
+          <figure class="ca-fig"><img src="assets/subway_04.jpg" width="2574" height="1930" alt="3장 공간 subway 사진 4"></figure>
+          <figure class="ca-fig"><img src="assets/subway_05.jpg" width="1335" height="1780" alt="3장 공간 subway 사진 5"></figure>
+          <p class="ca-why">노래 들으면서 이동할 때
+이동하기 편리해서</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ⑥ 4장 물건 — 번호 줄(장 머리 안) + 카드 줄(7주 부품 v1 동작 그대로) -->
+  <section class="ca-sec" id="s5" aria-labelledby="s5-t">
+    <div class="ca-head ca-row"><h2 class="ca-label" id="s5-t">4장 물건</h2>
+    </div>
+    <div class="ca-track" data-index>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">모자</button></h3>
+          <p class="ca-when">햇빛이 강할 때</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/obj1_01.jpg" width="2956" height="4032" alt="4장 물건 모자 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/obj1_02.jpg" width="3024" height="4032" alt="4장 물건 모자 사진 2"></figure>
+          <p class="ca-why">챙이 얼굴을 딱 가려 줘서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">애플워치</button></h3>
+          <p class="ca-when">시간을 보거나 연락을 간단히 확인할 때</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/obj2_01.jpg" width="3376" height="6000" alt="4장 물건 애플워치 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/obj2_02.jpg" width="3218" height="5722" alt="4장 물건 애플워치 사진 2"></figure>
+          <p class="ca-why">휴대폰이랑 연동이 가능해 편리해서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">안경</button></h3>
+          <p class="ca-when">시력이 나빠 앞이 잘 보이지 않을 때</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/obj3_01.jpg" width="1364" height="1705" alt="4장 물건 안경 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/obj3_02.jpg" width="3456" height="5184" alt="4장 물건 안경 사진 2"></figure>
+          <p class="ca-why">가벼워서 오래 써도 편해서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">이어폰</button></h3>
+          <p class="ca-when">밖에서 노래를 듣고 싶을 때</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/obj4_01.jpg" width="3864" height="5152" alt="4장 물건 이어폰 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/obj4_02.jpg" width="3000" height="5332" alt="4장 물건 이어폰 사진 2"></figure>
+          <p class="ca-why">줄이 있어 잃어버릴 걱정이 없어서</p>
+        </div>
+      </article>
+      <article class="ca-card">
+        <div class="ca-cap"><h3 class="ca-name"><button class="ca-open" type="button">핸드크림</button></h3>
+          <p class="ca-when">손이 건조할 때</p>
+        </div>
+        <div class="ca-body">
+          <figure class="ca-fig"><img src="assets/obj5_01.jpg" width="3024" height="4032" alt="4장 물건 핸드크림 사진 1"></figure>
+          <figure class="ca-fig"><img src="assets/obj5_02.jpg" width="3893" height="5190" alt="4장 물건 핸드크림 사진 2"></figure>
+          <p class="ca-why">향이 좋고 끈적거리지 않아서</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ⑦ 기준이 쌓이는 자리 — 장 키워드(시선·사람·공간·물건, 주차는 작은 보조 표기)별 기준 한 줄(원 List 줄 리듬) + 세 곳의 공통점 -->
+  <section class="ca-sec" id="s6" aria-labelledby="s6-t">
+    <div class="ca-head ca-row"><h2 class="ca-label" id="s6-t">기준이 쌓이는 자리</h2></div>
+    <dl class="ca-rows">
+      <div class="ca-r ca-row"><dt>시선</dt><dd>늘 보던 것을 한 번 더 보게 되는 순간</dd></div>
+      <div class="ca-r ca-row"><dt>사람</dt><dd>유니크하게 자기 색을 드러내는 사람</dd></div>
+      <div class="ca-r ca-row"><dt>공간</dt><dd>혼자 조용히 생각에 잠길 수 있는 곳</dd></div>
+      <div class="ca-r ca-row"><dt>물건</dt><dd>자꾸 찾게 되는 편리함</dd></div>
+      <div class="ca-r ca-row"><dt>멀리하는 것</dt><dd>시끄럽고 사람 많은 곳<br>불편하고 무거운 물건</dd></div>
+    </dl>
+  </section>
+</main>
+
+
+
+<!-- 하단 고정 바 — Email · Instagram · ©연도(영문 고정, 칸마다 위 선 · 바 위 선 하나가 마지막 장을 닫는다) -->
+<footer class="ca-bar-b">
+  <p class="ca-gnb-c" lang="en">©2026</p>
+</footer>
+
+<script src="sig.js"></script>
+</body>
+</html>
